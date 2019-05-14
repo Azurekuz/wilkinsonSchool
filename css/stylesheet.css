@@ -1,0 +1,163 @@
+body {
+    background-color: #010040;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h1 {
+    color: #E4CF00;
+    margin-left: 20px;
+    font-family: "Trebuchet MS";
+}
+
+h2{
+    font-family: "Trebuchet MS";
+}
+
+img { 
+    display: inline-block;
+}
+
+.banner-image {
+    /* The image used */
+    background-image: url("photographer.jpg");
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.no-spacing {
+    margin: 0; 
+    padding:0; 
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+
+.footerStyle{
+    background-color: #151E7A;
+    color: #E4CF00;
+    min-height: 25px;
+}
+
+.midsection{
+    background-color: #101566;
+    color: #E4CF00;
+}
+
+.newsStyle{
+    background-color: #0C0F4A;
+    color: aliceblue;
+}
+
+.navbar {
+    min-height:10px;
+    background-color: #1A2496;
+    color: #E4CF00;
+}
+
+.navbar-brand {
+  padding: 0 0px;
+  height: 0px;
+  line-height: 0px;
+}
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 23px;
+  padding: 5px 5px !important;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 10px;
+  }
+}
+
+.carousel-inner{
+    max-height: 350px;
+}
+
+p{
+    font-family: Verdana;
+}
+
+.qckLnk{
+    border-right:10px solid #0C0F4A;
+    border-bottom:10px solid #010040;
+}
+
+.dropdown-menu{
+    background-color: #1A2496;
+}
+
+.dropdown-menu > li > a{
+    color:aliceblue;
+}
+
+.fa {
+  padding: 7px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.sidebar{
+    background-color: #373C92;
+    padding: 10px;
+}
+
+.padthis{
+    padding: 15px;
+}
+
+.inlineImg{
+    display: inline-grid;
+}
+
+#calendars td{
+    border: 1px solid #373C92;
+    padding: 8px;
+    background-color: #151E7A;
+}
